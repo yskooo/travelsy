@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./pexels-mark-edwin-hedia-5222769.mp4">
+    <title>Travelsy | Home</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Travelsy</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="./pexels-mark-edwin-hedia-5222769.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Mount Mayon</h2>
+            <h3>Highly Active StratoVolcano</h3>
+            <p> A popular tourist spot, it is renowned for its "perfect cone". It is located <br> at Albay in Bicol Region, on the island of Luzon in the Philippines.
+            </p>
+            <a href="#">Explore</a>
+        </div>
+
+        <ul class="social">
+            <li>
+                <a href="#"><img src="facebook.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="instagram.png"></a>
+            </li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="#"></a>Home</li>
+            <li>
+                <a href="#"></a>About</li>
+            <li>
+                <a href="#"></a>More</li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+
+</body>
+
+</html>
+
+<!--<div class="tarsier">
+    <img src="tarsier-removebg-preview.png" alt="">
+</div>
